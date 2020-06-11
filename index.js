@@ -95,3 +95,6 @@ djdjdadadj
 // add(8, 9);
 
 // Object Deep Dive
+var newObj = {
+  name: "Name",
+};
