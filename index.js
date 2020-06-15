@@ -121,19 +121,59 @@ djdjdadadj
 // console.log(arr[0]);
 
 // Comparision
-var elm1 = 100;
-var elm2 = 100;
+// var elm1 = 100;
+// var elm2 = 100;
 
-// console.log(elm1 == elm2);
+// // console.log(elm1 == elm2);
 
-// Conditionals
-if (elm1 > elm2) {
-  //  block of code to be executed if condition1 is true
-  console.log("Element 1 is greater than element 2");
-} else if (elm1 < elm2) {
-  //  block of code to be executed if the condition1 is false and condition2 is true
-  console.log("Element 1 is less than element 2");
-} else {
-  //  block of code to be executed if the condition1 is false and condition2 is false
-  console.log("Element 1 is equal to element 2");
+// // Conditionals
+// if (elm1 > elm2) {
+//   //  block of code to be executed if condition1 is true
+//   console.log("Element 1 is greater than element 2");
+// } else if (elm1 < elm2) {
+//   //  block of code to be executed if the condition1 is false and condition2 is true
+//   console.log("Element 1 is less than element 2");
+// } else {
+//   //  block of code to be executed if the condition1 is false and condition2 is false
+//   console.log("Element 1 is equal to element 2");
+// }
+
+// Loops
+// console.log("Hello World");
+// console.log("Hello world");
+// console.log("Hello world");
+// console.log("Hello world");
+// console.log("Hello world");
+
+// for - loops through a block of code a number of times
+// for (let i = 0; i <= 100; i++) {
+//   // code block to be executed
+//   console.log(i);
+// }
+// for/in - loops through the properties of an object
+var obj = {
+  name: "Danielle",
+  gender: "f",
+  age: 78,
+};
+
+for (var x in obj) {
+  console.log(x);
 }
+// for/of - loops through the values of an iterable object
+// var arr = ["Danielle", "Justina", "Jane"];
+var arr = "Israel Adetunji";
+for (var x of arr) {
+  console.log(x);
+}
+// while - loops through a block of code while a specified condition is true
+var i = 0;
+while (i < 0) {
+  // Block of code to run
+  console.log(i);
+  i++;
+}
+// do/while - also loops through a block of code while a specified condition is true
+do {
+  console.log(i);
+} while (i < 0);
